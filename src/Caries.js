@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
   imageWrapper: {
     position: "relative",
     borderRadius: 12,
-    overflow: "hidden",
+
     boxShadow: "0 6px 20px rgba(0,0,0,0.1)",
     maxWidth: 640,
     margin: "auto",
