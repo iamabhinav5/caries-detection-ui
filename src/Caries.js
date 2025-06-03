@@ -228,7 +228,8 @@ const CariesDetection = () => {
             boxShadow: "0 2px 6px rgba(0,0,0,0.25)",
           }}
         >
-          {det.class} ({(det.confidence * 100).toFixed(1)}%)
+          {`ICDAS-${det.class.replace("D", "")}`} (
+          {(det.confidence * 100).toFixed(1)}%)
         </Typography>
       </Box>
     ));
